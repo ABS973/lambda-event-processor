@@ -19,7 +19,6 @@ OUTPUT
 }
 
 --- 02_payment_valid.json ---
-{
   "status": "ok",
   "message": "Payment processed",
   "data": {
@@ -34,7 +33,7 @@ OUTPUT
 }
 
 --- 03_file_upload_valid.json ---
-{
+
   "status": "ok",
   "message": "Upload processed",
   "data": {
@@ -47,6 +46,8 @@ OUTPUT
   "errors": []
 }
 
+--- 04_user_signup_invalid_email.json ---
+4_user_signup_invalid_email.json
 --- 04_user_signup_invalid_email.json ---
 {
   "status": "error",
@@ -86,6 +87,7 @@ OUTPUT
     "Unknown event type: 'DEVICE_EVENT'. Allowed: FILE_UPLOAD, PAYMENT, USER_SIGNUP"
   ]
 }
+
 
 --- 08_bad_json_structure.json ---
 {
